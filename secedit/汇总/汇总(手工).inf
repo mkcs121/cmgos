@@ -1,0 +1,19 @@
+[Unicode]
+Unicode=yes
+[System Access]
+MinimumPasswordAge = 0
+MaximumPasswordAge = -1
+MinimumPasswordLength = 0
+PasswordComplexity = 0
+[Event Audit]
+[Registry Values]
+MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\DisableCAD=4,1
+MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\EnableLUA=4,0
+MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\NoConnectedUser=4,0
+MACHINE\System\CurrentControlSet\Control\Lsa\ForceGuest=4,0
+MACHINE\System\CurrentControlSet\Control\Session Manager\Memory Management\ClearPageFileAtShutdown=4,0
+[Privilege Rights]
+SeNetworkLogonRight = Administrator
+[Version]
+signature="$CHICAGO$"
+Revision=1
